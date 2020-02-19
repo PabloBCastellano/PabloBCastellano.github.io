@@ -1,16 +1,22 @@
 <html><meta charset='utf-8'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<title>Gestor Multiple de Bases de Datos</title>
-	
+	<script src="Funcionalidades.js"></script>
 	<style>
 		#Botones{
 			margin-top:5%;
 			margin-left:15%;
 		}
+		#Instrucciones{
+			
+			font-family:Arial;
+			font-size:120%;
+		}
 	</style>
 <body>
 	<div id="Botones">
-		<p><a class="btn btn-primary" href="Gestor_Base_Datos.zip" role="button">Bajar Proyecto</a></p>
+		<p><Button class="btn btn-primary" onClick="Descargar()" role="button">Bajar Proyecto</Button></p>
+		<p id="Instrucciones"></p>
 		<p><a class="btn btn-primary" href="./../index.html" role="button">Volver al Menú de Proyectos</a></p>
 		<!-- <button onClick="Descargar()">Bajar Proyecto</button> -->
 	</div>
