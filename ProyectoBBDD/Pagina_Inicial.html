@@ -4,7 +4,9 @@
 	<script src="Funcionalidades.js"></script>
 	<style>
 		#Botones{
-			margin-top:5%;
+			position:fixed;
+			float:bottom;
+			margin-top:30%;
 			margin-left:15%;
 		}
 		#Instrucciones{
@@ -12,8 +14,27 @@
 			font-family:Arial;
 			font-size:120%;
 		}
+		
+		#Presentacion{
+			position:relative;
+			float:left;
+			margin-top:2%;
+			background-color:yellow;
+			width:40vw;
+			height:20vw;
+			font-family:Arial;
+			font-size:120%;
+		}
 	</style>
 <body>
+
+	<div id="Presentacion">
+		<h3>¿Que es y en que se basa mi aplicación?</h3>
+		<p>Es un Gestor de Multiples bases de Datos escrito en Python
+			basado en un entorno gráfico Qt5.
+		</p>
+	</div>
+	
 	<div id="Botones">
 		<p><Button class="btn btn-primary" onClick="Descargar()" role="button">Bajar Proyecto</Button></p>
 		<p id="Instrucciones"></p>
