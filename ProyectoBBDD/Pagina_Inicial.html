@@ -3,11 +3,19 @@
 	<title>Gestor Multiple de Bases de Datos</title>
 	<script src="Funcionalidades.js"></script>
 	<style>
-		#Botones{
+		#BotonDescarga{
 			position:absolute;
-			float:bottom;
-			margin-top:30%;
-			margin-left:15%;
+			float:left;
+			margin-top:10px;
+			margin-left:80%;
+		}
+		
+		#BotonAtras{
+			position:absolute;
+			bottom:40px;
+			padding-left:15px;
+			<!-- margin-bottom:0%; -->
+			<!-- margin-left:80%; -->
 		}
 		#Instrucciones{
 			
@@ -46,11 +54,14 @@
 		</p>
 	</div>
 	
-	<div id="Botones">
+	<div id="BotonDescarga">
 		<p><button class="btn btn-primary" onClick="Descargar()" role="button">Bajar Proyecto</button></p>
 		<p id="Instrucciones"></p>
+		
+	</div>
+	
+	<div id="BotonAtras">
 		<p><button class="btn btn-primary" onClick="Regresar()" role="button">Volver al Menú de Proyectos</button></p>
-		<!-- <button onClick="Descargar()">Bajar Proyecto</button> -->
 	</div>
 
 </body>
