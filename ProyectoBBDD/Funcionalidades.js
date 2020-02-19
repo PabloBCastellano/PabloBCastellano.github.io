@@ -13,5 +13,5 @@ function Descargar(){
 	"<li>seaborn </li>"+
 	"<li>xlrd </li>"+
 	"<li>pillow </li>"+
-	"<li>matplotlib </li>"+
+	"<li>matplotlib </li>"
 }
