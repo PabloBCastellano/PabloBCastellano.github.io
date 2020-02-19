@@ -1,5 +1,5 @@
 function Descargar(){
-	location.href="Gestor_Base_Datos.zip"
+	location.href="Gestor_Base_Datos.zip";
 	document.getElementById("Instrucciones").innerHTML="Las librerias necesarias para "+
 	" que funcione son:<br>"+
 	"<ul style='margin-left:2%;'>"+
@@ -13,5 +13,10 @@ function Descargar(){
 	"<li>seaborn </li>"+
 	"<li>xlrd </li>"+
 	"<li>pillow </li>"+
-	"<li>matplotlib </li>"
+	"<li>matplotlib </li>";
+}
+
+function Regresar(){
+	location.href="./../index.html";
+	
 }
