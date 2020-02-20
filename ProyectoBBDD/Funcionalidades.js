@@ -16,7 +16,3 @@ function Descargar(){
 	"<li>matplotlib </li>";
 }
 
-function Regresar(){
-	location.href="./../index.html";
-	
-}
