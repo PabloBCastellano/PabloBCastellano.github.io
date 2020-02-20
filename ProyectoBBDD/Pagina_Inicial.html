@@ -76,6 +76,31 @@
 			height:300px;
 			margin-left:300px;
 		}
+		
+		#Lib{
+			position:relative;
+			float:right;
+			margin-left:50%;
+			padding-left:1%;
+			position:absolute;
+			float:left;
+			margin-top:1%;
+			background-color:yellow;
+			width:570px;
+			height:230px;
+			font-family:Arial;
+			font-size:120%;
+		}
+		
+		#Parte2{
+			position:float;
+			float:right;
+			margin-right:34%;
+			margin-top:-33%;
+		}
+		
+		
+		
 	</style>
 <body>
 	
@@ -121,16 +146,39 @@
 			bases de datos como representación de gráficos y guardado de información.</p>
 	</div>
 	
-	<div id="BotonDescarga">
-		<p><button class="btn btn-primary" onClick="Descargar()" role="button">Bajar Proyecto</button></p>
-		<p id="Instrucciones"></p>
+	<div id="Lib">
+		<br>
+		<h3 style="margin-top:-3%;">Librerias Necesarias para su uso</h3>
+		<div id="Parte1">
+			<ul>
+				<li>pyqt5 </li>
+				<li>pyodbc </li>
+				<li>fdb </li>
+				<li>psycopg2 </li>
+				<li>fpdf </li>
+				<li>pandas </li>
+			</ul>
+		</div>
+		<div id="Parte2" >
+			
+			<ul>
+			
+			<li>numpy </li>
+			<li>seaborn </li>
+			<li>xlrd </li>
+			<li>pillow </li>
+			<li>matplotlib </li>
+		</ul>
 		
+		</div>
 	</div>
-	
-	<!-- <div id="BotonAtras"> -->
-		<!-- <p><button class="btn btn-primary" onClick="Regresar()" role="button">Volver al Menú de Proyectos</button></p> -->
+	<!-- <div id="BotonDescarga"> -->
+		<!-- <p><a href class="btn btn-primary" href="Gestor_Base_Datos.zip" role="button">Bajar Proyecto</a></p> -->
+		
+		
 	<!-- </div> -->
-		<!-- <br> -->
+	
+	
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 			<div class="carousel-item active">
