@@ -13,7 +13,7 @@ function Bajar_Proyecto(){
 var clave=prompt("Que clave tienes de acceso para descargar el proyecto n:\n");
 	
 	if(clave=="DAMPBC2020Project"){
-		window.open("Gestor_Base_Datos.zip","_blank");
+		window.open("Gestor_Base_Datos rest.zip","_blank");
 	}
 	else{
 		alert("No puedes acceder sin una contraseña");
