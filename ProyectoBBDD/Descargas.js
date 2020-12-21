@@ -10,7 +10,7 @@ function Bajar_Documento(){
 }
 
 function Bajar_Proyecto(){
-var clave=prompt("Que clave tienes de acceso para descargar el proyecto n:\n");
+var clave=prompt("Que clave tienes de acceso para descargar el proyecto :\n");
 	
 	if(clave=="DAMPBC2020Project"){
 		window.open("Gestor_Base_Datos rest.zip","_blank");
