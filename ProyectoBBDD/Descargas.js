@@ -1,12 +1,6 @@
 function Bajar_Documento(){
-	var clave=prompt("Que clave tienes de acceso para descargar la documentacion:\n");
 	
-	if(clave=="DAMPBC2020DOCUM"){
-		window.open("Memoria_Proyecto.pdf");
-	}
-	else{
-		alert("No puedes acceder sin una contraseña");
-	}	
+	window.open("Memoria_Proyecto.pdf");
 }
 
 function Bajar_Proyecto(){
